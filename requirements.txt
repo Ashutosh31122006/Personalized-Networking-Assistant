@@ -1,0 +1,15 @@
+# Core
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+requests>=2.31
+streamlit>=1.33
+
+# AI / NLP (DistilBERT zero-shot + GPT-2). The app degrades gracefully to a
+# keyword/template fallback if these aren't installed or models can't download.
+transformers>=4.40
+torch>=2.2
+
+# Testing
+pytest>=8.0
+httpx>=0.27
