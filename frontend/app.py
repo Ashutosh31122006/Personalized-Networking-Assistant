@@ -17,7 +17,7 @@ API_BASE = os.environ.get("PNA_API_BASE", "http://localhost:8000")
 # Page config & Custom CSS
 # ===================================================================== #
 st.set_page_config(
-    page_title="Personalized Networking Assistant",
+    page_title="Personalized Networking Assistant😁",
     page_icon="🤝",
     layout="wide",
     initial_sidebar_state="expanded",
